@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Helm
+helm/app/charts/
+helm/app/Chart.lock
+
+# Env / secrets
+.env
+*.pem
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
